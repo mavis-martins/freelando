@@ -1,12 +1,18 @@
-import { Estilos } from "./components/GlobalStyles/estilos";
+import { Card } from "./components/Card/Card";
+import { Estilos } from "./components/GlobalStyles/Estilos";
+import { ProvedorTema } from "./components/ProvedorTema/ProvedorTema";
 
 
 function App() {
   return (
-    <div>
+    <ProvedorTema>
       <Estilos/>
-      <h1>Freelando</h1>
-    </div>
+      <Card>
+        <h1>
+          Freelando
+        </h1>
+      </Card>
+    </ProvedorTema>
   );
 }
 
